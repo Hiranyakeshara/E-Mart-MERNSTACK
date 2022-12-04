@@ -1,36 +1,26 @@
-# MERN Stack - Ecommerce
-> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
+#First Download the Project and hit “NPM i” on project Terminal 
+#Please first setup your .ENV file on the project.
+- open cloudnary account and setup the keys
+- CLOUD_API_KEY =
+- CLOUD_API_SECRET = 
+- CLOUD_NAME =
+- 
 
-## Demo: https://devat-ecommerce.herokuapp.com/
+later open up the password generator and setup the token keys
 
-## Author: Dev AT
-## Youtube tutorials: https://youtu.be/AjItjNc0bHA
+REFRESH_TOKEN_SECRET = 
+ACCESS_TOKEN_SECRET = 
 
-## Install dependencies for server 
-### `npm install`
 
-## Install dependencies for client
-### cd client ---> `npm install`
 
-## Connect to your mongodb and add info in .env
+#open mongodb database and create, database, cluster,and user
 
-## Add your paypal client id in client/src/components/mainpages/cart/PaypalButton.js
+#copy the url and input relevant props on the url database user,password and databasename – copy it on database Mongodb-url
 
-## Run the client & server with concurrently
-### `npm run dev`
+MONGODB_URL = 
 
-## Run the Express server only
-### `npm run server`
+#Open a postman and send api requests to mongodb to create users,admin,products on the database
 
-## Run the React client only
-### `npm run client`
+#open paypal acc and setup the api keys on the code.
 
-### Server runs on http://localhost:5000 and client on http://localhost:3000
 
-### User interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568147/test/1_pe9ism.png)
-
-### Admin interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568148/test/2_obw2r7.png)
